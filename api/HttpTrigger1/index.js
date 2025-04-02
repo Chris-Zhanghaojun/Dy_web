@@ -5,7 +5,7 @@ module.exports = async function (context, req) {
 
     try {
         const parsedUrl = new URL(req.url.replaceAll("/api", ""));
-        const url = new URL(`https://icy-forest-0ad1bcf00.6.azurestaticapps.net${parsedUrl.pathname}${parsedUrl.search}`);
+        const url = new URL(`https://backend111-caa5fjbegwe3hdab.eastasia-01.azurewebsites.net${parsedUrl.pathname}${parsedUrl.search}`);
 
         const options = {
             method: req.method,
